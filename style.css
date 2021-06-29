@@ -1,0 +1,67 @@
+:root{
+/* Fuentes */
+  --fuenteHeading: 'DM Serif Display', serif;
+  --fuenteParrafo: 'Cormorant Garamond', serif;
+/*Colores*/
+--ColorPrincipal: #037E8C;
+--ColorSecundario: #13C0E5;
+--ColorClaro: #f4f4f2;
+--ColorContraste: #7EC544;
+}
+/* Globales */
+body{
+  font-family: var(--fuenteParrafo);
+  font-size: 1.5rem;
+}
+p{
+  font-family: var(--fuenteParrafo)
+  font-size
+}
+
+h1{
+  font-family: var(--fuenteHeading);
+  font-size:5rem; 
+}
+
+/*Colores*/
+.fondo{
+  background-color: var(--ColorPrincipal);
+  padding: 1rem 2rem;
+  }
+.Titulo{
+  font-family: var(--fuenteHeading);
+  font-size: 3rem;
+}
+.espacio{
+  margin-right: 0.5rem;
+}
+.boton{
+  padding: 0.5 2.5rem;
+  font-size: 1.5rem;
+  background-color: var(--ColorSecundario) !important;
+  border-color: var(--ColorSecundario) !important;
+}
+.margen-2{
+  margin: 2rem 0;
+}
+.alt{
+ background-size: cover;
+}
+.font-5{
+  font-size: 5rem;
+}
+.padding-2{
+  padding: 2rem;
+}
+.imagen-fondo{
+  background-image: url("https://i.ytimg.com/vi/CH0DBCp4mvM/maxresdefault.jpg")
+}
+.imagen{
+  background-color: blue;
+  height: 10rem;
+}
+.grid2T{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
