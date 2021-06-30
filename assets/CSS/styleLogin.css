@@ -1,0 +1,112 @@
+:root{
+    /* Fuentes */
+      --fuenteHeading: 'DM Serif Display', serif;
+      --fuenteParrafo: 'Cormorant Garamond', serif;
+      
+    /*Colores*/
+    --ColorClaro: #f4f4f2;
+    --ColorContraste: #7EC544;
+    }
+
+.txtTitulo{
+    font-family: var(--fuenteHeading);
+    font-size:3rem; 
+    }
+
+.txtParrafo {
+    font-family: var(--fuenteParrafo);
+    font-size: 1.2rem;
+}
+
+.txtButtonLogin {
+    font-family: var(--fuenteParrafo);
+}
+
+body {
+    background-image: url(../IMG/fondo5.jpg);
+    /* La imagen cubrira todo el ancho y alto */
+    background-size: cover;
+    /* Le damos un alto al body */
+    min-height: 100vh;
+    /* Decimos que no se repita la imagen cuando es demasiado 
+    pequeña o si se acaba el espacio del navegador que abraca la
+    imagen */
+    background-repeat: no-repeat;
+    /* Centramos la imagen */
+    background-position: center;
+    /* Hacemos que la imagen siempre se muestre en el fondo */
+    background-attachment: fixed;
+
+    
+}
+
+/* Creacion del blur para la imagen mediante pseudo elemntos*/
+
+.margen{
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 3%;
+    height: 500px;
+    width: 950px;
+}
+
+.inputs {
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 15px;
+}
+
+.btn-azul {
+
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 15px;
+
+
+
+    background: rgb(3, 126, 140,0.7); ;
+}
+
+.txtAzul {
+    color: rgba(3, 126, 140);
+    /* style="-webkit-text-stroke: .0px gray;" */
+}
+
+.txtBlanco {
+    color: rgba(244, 244, 242);
+}
+
+.terceros {
+    width: 250px;
+    height: 30px;
+    padding: 0px;
+
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px ;
+    border-bottom-right-radius: 15px;
+
+    background-color: rgba(244, 244, 242);
+}
+
+
+#izq {
+
+    border-top-left-radius: 40px ;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 42px ;
+    border-bottom-right-radius: 2px;
+
+    background: rgba(19, 192, 229, 0.7);
+}
+
+#der {
+    border-top-left-radius: 2px ;
+    border-top-right-radius: 42px;
+    border-bottom-left-radius: 2px ;
+    border-bottom-right-radius: 42px;
+    background: rgba(244, 244, 242, 0.6);
+    
+}
