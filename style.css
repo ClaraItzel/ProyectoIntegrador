@@ -31,6 +31,7 @@
       background-color: var(--ColorPrincipal);
       padding: 1rem 2rem;
       }
+      /* Para aplicarlo a los titulos */
     .Titulo{
       font-family: var(--fuenteHeading);
       font-size: 3rem;
@@ -39,11 +40,19 @@
       margin-right: 0.5rem;
     }
     .boton{
-      padding: 0.5 2.5rem;
-      font-size: 1.5rem;
+      font-family: var(--fuenteHeading);
+      font-size: 1.3rem;
+      border-radius: 30px;
       background-color: var(--ColorSecundario) !important;
       border-color: var(--ColorSecundario) !important;
     }
+    .boton:hover{
+      background-color: var(--ColorContraste) !important;
+      border: var(--ColorContraste) !important;
+      -webkit-box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
+      -moz-box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
+      box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
+          }
     .margen-2{
       margin: 10px 0px 40px 0; 
     }
@@ -72,10 +81,40 @@
       gap: 2rem;
     }
     .hilo{
-        background-color: var(--ColorContraste);
+        border-radius: 30px;
+        background-color: var(--ColorSecundario);
         padding: 10px;
-        color: #f4f4f2;
+        text-align: center;
+        color: white;
+      background: rgba(19,192,229,1);
+      background: -moz-linear-gradient(left, rgba(19,192,229,1) 0%, rgba(98,216,252,1) 50%, rgba(19,192,229,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,192,229,1)), color-stop(50%, rgba(98,216,252,1)), color-stop(100%, rgba(19,192,229,1)));
+      background: -webkit-linear-gradient(left, rgba(19,192,229,1) 0%, rgba(98,216,252,1) 50%, rgba(19,192,229,1) 100%);
+      background: -o-linear-gradient(left, rgba(19,192,229,1) 0%, rgba(98,216,252,1) 50%, rgba(19,192,229,1) 100%);
+      background: -ms-linear-gradient(left, rgba(19,192,229,1) 0%, rgba(98,216,252,1) 50%, rgba(19,192,229,1) 100%);
+      background: linear-gradient(to right, rgba(19,192,229,1) 0%, rgba(98,216,252,1) 50%, rgba(19,192,229,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13c0e5', endColorstr='#13c0e5', GradientType=1 );
+
     }
     .cambio{
         background-color: var(--ColorClaro);
     }
+  .perfil{
+    display: flex;
+  }
+  .foto{
+    background-size: cover ;
+    background-image: url(johnDoe.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 2rem 2rem;
+    border-radius: 50%;
+    
+  }
+  .w-pixeles{
+    width: 80%;
+  }
+  .ubicacion{
+    font-family: var(--fuenteHeading);
+  }
