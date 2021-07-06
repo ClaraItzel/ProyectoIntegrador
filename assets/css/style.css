@@ -94,6 +94,7 @@
     }
   .perfil{
     display: flex;
+    
   }
   .foto{
     background-size: cover ;
@@ -110,4 +111,8 @@
   }
   .ubicacion{
     font-family: var(--fuenteHeading);
+  }
+  .dimension{
+    width: 70%;
+    height: 9rem;
   }
