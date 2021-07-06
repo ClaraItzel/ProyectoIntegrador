@@ -46,13 +46,6 @@
       background-color: var(--ColorSecundario) !important;
       border-color: var(--ColorSecundario) !important;
     }
-    .boton:hover{
-      background-color: var(--ColorContraste) !important;
-      border: var(--ColorContraste) !important;
-      -webkit-box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
-      -moz-box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
-      box-shadow: -1px 3px 9px 4px rgba(255,252,237,1);
-          }
     .margen-2{
       margin: 10px 0px 40px 0; 
     }
@@ -104,7 +97,7 @@
   }
   .foto{
     background-size: cover ;
-    background-image: url(johnDoe.png);
+    background-image: url(/assets/img/johnDoe.png);
     background-repeat: no-repeat;
     width: 150px;
     height: 150px;
