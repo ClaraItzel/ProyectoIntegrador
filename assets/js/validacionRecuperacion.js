@@ -17,7 +17,6 @@ form.addEventListener("submit", e=>{
     if(entrar){
         warningRecuperacion.innerHTML = mensaje;
         warningRecuperacion.classList.add('animated', 'flash');
-        console.log(warningRecuperacion.className)
     }
 
 })
