@@ -20,10 +20,12 @@
 
 .txtButtonLogin {
     font-family: var(--fuenteParrafo);
+    font-weight: 500px;
+    font-size: 19px;
 }
 
 body {
-    background-image: url(../IMG/fondo5.jpg);
+    background-image: url(../img/fondo5.jpg);
     /* La imagen cubrira todo el ancho y alto */
     background-size: cover;
     /* Le damos un alto al body */
@@ -71,7 +73,6 @@ body {
 
 .txtAzul {
     color: rgba(3, 126, 140);
-    /* style="-webkit-text-stroke: .0px gray;" */
 }
 
 .txtBlanco {
@@ -89,8 +90,21 @@ body {
     border-bottom-right-radius: 15px;
 
     background-color: rgba(244, 244, 242);
+
+    font-weight: 500;
+    font-size: 19px;
 }
 
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+}
+.warnings {
+    animation: wobble infinite;
+}
 
 #izq {
 
@@ -103,6 +117,7 @@ body {
 }
 
 #der {
+
     border-top-left-radius: 2px ;
     border-top-right-radius: 42px;
     border-bottom-left-radius: 2px ;
@@ -110,3 +125,5 @@ body {
     background: rgba(244, 244, 242, 0.6);
     
 }
+
+
