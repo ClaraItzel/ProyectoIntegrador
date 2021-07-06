@@ -12,6 +12,7 @@
 body{
   font-family: var(--fuenteParrafo);
   font-size: 1.5rem;
+  background-color: #f4f4f2;
 }
 p{
   font-family: var(--fuenteParrafo)
@@ -64,4 +65,21 @@ h1{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+}
+
+.bg-azul{
+  background-color: #037E8C;
+}
+
+.bg-azulclaro{
+
+  background-color: #13C0E5;;
+}
+
+.txtBlanco{
+  color:#f4f4f2;
+}
+
+.txtAzulClaro{
+  color: #13C0E5;
 }
