@@ -14,14 +14,17 @@ form.addEventListener("submit", e=>{
     let entrar = false;
     let regexEmail =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
     parrafo.innerHTML = "";
+
     if( nombre.value.length < 6 ){
         warnings += `El nombre es demasiado corto <br>`
         entrar = true;
     }
+    
     if(!regexEmail.test(emailRegistro.value)){
         warnings += `El email no es valido <br>`
         entrar = true;
-    } 
+    }
+    
     if (password.value.length < 8){
         warnings += `La contraseña debe tener al menos 8 caracteres <br>`;
         entrar = true;
@@ -30,9 +33,11 @@ form.addEventListener("submit", e=>{
         warnings += `Las contraseñas no coinciden <br>`;
         entrar = true;
     }
+    
     if (entrar) {
         parrafo.innerHTML = warnings;
         parrafo.classList.add('animated', 'flash');
-        
+    } else {
+        window.location.href = 'plantilla-descripcion-proyectos.html';
     }
 }) 
