@@ -11,7 +11,7 @@ ingresar.addEventListener("click", e=>{
     let mensaje = "";
 
     if (user.value == usuarioPrueba && pass.value == contraseña){
-        window.location.href = 'registro.html';
+        window.location.href = 'plantilla-descripcion-proyectos.html';
     } else {
         mensaje = "Usuario o contraseña incorrectos";
         entrar = true;

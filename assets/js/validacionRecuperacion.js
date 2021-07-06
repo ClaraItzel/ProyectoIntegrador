@@ -17,6 +17,8 @@ form.addEventListener("submit", e=>{
     if(entrar){
         warningRecuperacion.innerHTML = mensaje;
         warningRecuperacion.classList.add('animated', 'flash');
+    } else{
+        window.location.href = 'login.html';
     }
 
 })
