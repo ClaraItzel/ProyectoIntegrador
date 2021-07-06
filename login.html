@@ -6,6 +6,7 @@
 
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
             <link rel="stylesheet" href="assets/css/styleLogin.css">
+            <link rel="stylesheet" href="assets/css/animate.css">
 
             <title>Login</title>
         </head>
@@ -22,12 +23,12 @@
 
                         <label for="" class="mt-3 txtAzul txtParrafo">Nombre de usuario o correo electronico:</label>
                         <br>
-                        <input type="text" class="form-control inputs mt-0"/>
+                        <input type="text" class="form-control inputs mt-0" id="user"/>
                         <br><br>
 
                         <label for="" class="txtAzul mt-0 txtParrafo">Contraseña:</label>
                         <br>
-                        <input type="password" class="form-control inputs mt-0"/>
+                        <input type="password" class="form-control inputs mt-0" id="pass"/>
 
                         <button class="mt-4 terceros text-center btn txtAzul txtParrafo" style=" margin-left: 5.5rem; width: 275px;">
                             <img src="assets/fonts/google.svg" alt="" width="20" style="margin-right: 2px;"/>
@@ -39,11 +40,12 @@
                         </button>
 
                         <button type="button" onclick="location.href = `registro.html`" class="mt-5 btn btn-azul txtBlanco txtButtonLogin" style="margin-left: 4rem;">Registrarse</button>
-                        <button type="button" class="mt-5 btn btn-azul txtBlanco txtButtonLogin" style="margin-left: 7rem;">Ingresar</button>
+                        <button type="button" class="mt-5 btn btn-azul txtBlanco txtButtonLogin" id="ingresar" style="margin-left: 7rem;">Ingresar</button>
 
                         <p class="mt-4 text-center">
                             <a href="olvidoContrasena.html" class="txtParrafo">¿Olvido su contraseña?</a>
                         </p>
+                        <p class="warnings w-100 txtParrafo slower" id="warnings"></p>
 
                     </form>
                 </div>
@@ -52,6 +54,6 @@
 
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
+            <script src="assets/js/loginUsuario.js"></script>
         </body>
     </html>
