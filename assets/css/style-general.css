@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+}
+
+
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #F4F4F2 ;
+}
+
+.h2{
+    color: #F4F4F2;
+}
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h4 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h5 {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    position: absolute;
+    width:100%;
+}
+
+
+header .textos-header{
+    display: flex;
+    height: 270px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+
+
+
+
+
