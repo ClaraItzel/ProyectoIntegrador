@@ -43,8 +43,17 @@
       font-family: var(--fuenteHeading);
       font-size: 1.3rem;
       border-radius: 30px;
-      background-color: var(--ColorSecundario) !important;
-      border-color: var(--ColorSecundario) !important;
+      border-color: var(--ColorPrincipal);
+      color: var(--ColorPrincipal) !important;
+    }
+    .boton:hover{
+      color: var(--ColorContraste) !important;
+      border-color: var(--ColorContraste);
+      -webkit-box-shadow: 2px 5px 16px 0px rgba(108,166,61,1);
+-moz-box-shadow: 2px 5px 16px 0px rgba(108,166,61,1);
+box-shadow: 2px 5px 16px 0px rgba(108,166,61,1);
+
+
     }
     .margen-2{
       margin: 10px 0px 40px 0; 
@@ -116,3 +125,4 @@
     width: 70%;
     height: 9rem;
   }
+  
